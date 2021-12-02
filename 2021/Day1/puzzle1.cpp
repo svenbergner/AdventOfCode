@@ -9,7 +9,7 @@
 
 int main()
 {
-  std::string filename = "puzzle1_input.txt";
+  std::string filename = "day1puzzleinput.txt";
 
   // open file for reading
   std::ifstream istrm(filename, std::ios::binary);
