@@ -49,7 +49,7 @@
             "program": "${workspaceFolder}/build/AoC2021Day2Puzzle1",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/build/",
+            "cwd": "${workspaceFolder}/2021/Day2/",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
