@@ -80,5 +80,43 @@
                 }
             ]
         },
+        {
+            "name": "(gdb) Day3 Puzzle1",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/AoC2021Day3Puzzle1",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/2021/Day3/",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Day3 Puzzle2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/AoC2021Day3Puzzle2",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/2021/Day3/",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
     ]
 }
