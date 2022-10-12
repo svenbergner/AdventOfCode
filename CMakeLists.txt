@@ -10,6 +10,7 @@ add_executable(AoC2021Day1Puzzle2 2021/Day1/puzzle2.cpp)
 add_executable(AoC2021Day2Puzzle1 2021/Day2/puzzle1.cpp)
 add_executable(AoC2021Day2Puzzle2 2021/Day2/puzzle2.cpp)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
