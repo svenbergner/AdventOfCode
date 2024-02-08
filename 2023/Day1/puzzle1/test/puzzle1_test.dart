@@ -53,10 +53,12 @@ void main() {
     expect(replaceWordWithDigit('zero'), '0');
   });
   test('replace onetwothreefourfivesixseveneightninezero by 1234567890', () {
-    expect(replaceWordWithDigit('onetwothreefourfivesixseveneightninezero'), '1234567890');
+    expect(replaceWordWithDigit('onetwothreefourfivesixseveneightninezero'),
+        '1234567890');
   });
   test('replace one2threefourfivesixseveneightninezero by 1234567890', () {
-    expect(replaceWordWithDigit('one2threefourfivesixseveneightninezero'), '1234567890');
+    expect(replaceWordWithDigit('one2threefourfivesixseveneightninezero'),
+        '1234567890');
   });
   test('replace oneoneoneone by 1111', () {
     expect(replaceWordWithDigit('oneoneoneone'), '1111');
